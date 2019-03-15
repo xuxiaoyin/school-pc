@@ -30,4 +30,17 @@ $(function(){
    $('.tab a').mouseover(function(){
    	init($(this).index())
    })
+   
+   
+   var size=14;
+	$('.tobig').click(function(){
+		if(size<20){
+			size++;
+		}
+		$('.article-content').children().css('fontSize',size+'px')
+	});
+	$('.tosmall').click(function(){
+		size--;
+		$('.article-content').children().css('fontSize',size+'px')
+	})
 })
