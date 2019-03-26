@@ -3,13 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/sjz.css"/>
 	<link rel="stylesheet" href="css/swiper.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<script type="text/javascript" src="js/jquery1.8.2.min.js" ></script>
+	<script type="text/javascript" src="js/sjz.js" ></script>
 	<script type="text/javascript" src="js/swiper.min.js" ></script>
 	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
+	<!--top-nav S-->
+	<div class="top-nav">
+		<div class="pagesize clear">
+			<div class="left btn">
+				<a href="login.html">登录</a>
+				<a href="register.html">注册</a>
+				<a href="publish.html">快捷发布</a>
+			</div>
+			<div class="right search">
+				<input type="text"  placeholder="请输入您要搜索的内容"/>
+				<a href="javascript:" class="search-bnt">
+					<img src="images/search.png" />
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--top-nav E-->
+	
 	<!--header S-->
 	<div class="header">
 		<div class="nav">
@@ -18,16 +38,16 @@
 			</a>
 			<ul class="nav-warp left clear">
 				<li class="nav-list">
-					<a href="#">土沃叶茂</a>
+					<a href="list.html">土沃叶茂</a>
 				</li>
 				<li class="nav-list">
-					<a href="#">品牌铸就</a>
+					<a href="list.html">品牌铸就</a>
 				</li>
 				<li class="nav-list">
-					<a href="#">名人寄语</a>
+					<a href="list.html">名人寄语</a>
 				</li>
 				<li class="nav-list">
-					<a href="#">贡院遗存</a>
+					<a href="list.html">贡院遗存</a>
 				</li>
 			</ul>
 		</div>
@@ -40,6 +60,38 @@
 	</div>
 	<!--banner E-->
 	
+	<!--时间轴 S-->
+	<div class="cd-horizontal-timeline">
+		<div class="timeline">
+			<div class="events-wrapper">
+				<div class="events">
+					<ol>
+						<li><a href="#0" data-date="01/01/2014" class="selected">2014</a></li>
+						<li><a href="#0" data-date="01/01/2015">2015</a></li>
+						<li><a href="#0" data-date="01/01/2016">2016</a></li>
+						<li><a href="#0" data-date="01/01/2017">2017</a></li>
+						<li><a href="#0" data-date="01/01/2018">2018</a></li>
+						<li><a href="#0" data-date="01/01/2019">2019</a></li>
+						<li><a href="#0" data-date="01/01/2020">2020</a></li>
+						<li><a href="#0" data-date="01/01/2021">2021</a></li>
+						<li><a href="#0" data-date="01/01/2022">2022</a></li>
+						<li><a href="#0" data-date="01/01/2023">2023</a></li>
+						<li><a href="#0" data-date="01/01/2024">2024</a></li>
+					</ol>
+			
+					<span class="filling-line" aria-hidden="true"></span>
+				</div> <!-- .events -->
+			</div> <!-- .events-wrapper -->
+					
+			<ul class="cd-timeline-navigation">
+				<li><a href="#0" class="prev inactive">Prev</a></li>
+				<li><a href="#0" class="next">Next</a></li>
+			</ul> <!-- .cd-timeline-navigation -->
+		</div> <!-- .timeline -->
+		
+		<!--<div class="events-content"></div>-->
+	</div>
+	<!--时间轴 E-->
 	<!--section1 S-->
 	<div class="section1 pagesize">
 		<h1 class="section-title">土沃叶茂</h1>
